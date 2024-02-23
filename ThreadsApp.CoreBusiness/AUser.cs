@@ -3,7 +3,6 @@ using Humanizer;
 
 namespace ThreadsApp.CoreBusiness;
 
-// All the code in this file is included in all platforms.
 public partial class AUser : ObservableObject
 {
     [ObservableProperty]
