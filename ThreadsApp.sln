@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsApp", "ThreadsApp\Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsApp.CoreBusiness", "ThreadsApp.CoreBusiness\ThreadsApp.CoreBusiness.csproj", "{71A7EC52-BA29-449C-BCDE-ECBE6BEA82DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsApp.UseCases", "ThreadsApp.UseCases\ThreadsApp.UseCases.csproj", "{7A80AD26-BF34-498E-B0AD-6CA625E305FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{71A7EC52-BA29-449C-BCDE-ECBE6BEA82DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A7EC52-BA29-449C-BCDE-ECBE6BEA82DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A7EC52-BA29-449C-BCDE-ECBE6BEA82DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
