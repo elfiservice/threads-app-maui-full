@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsApp.UseCases", "Thre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D253E2BA-1D98-4834-8042-400414923828}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsApp.Plugins.DataStore.InMemory", "Plugins\ThreadsApp.Plugins.DataStore.InMemory\ThreadsApp.Plugins.DataStore.InMemory.csproj", "{03882D93-550E-42EC-9853-485573C84B2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,8 +31,15 @@ Global
 		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03882D93-550E-42EC-9853-485573C84B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03882D93-550E-42EC-9853-485573C84B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03882D93-550E-42EC-9853-485573C84B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03882D93-550E-42EC-9853-485573C84B2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03882D93-550E-42EC-9853-485573C84B2C} = {D253E2BA-1D98-4834-8042-400414923828}
 	EndGlobalSection
 EndGlobal
