@@ -1,7 +1,9 @@
 ﻿namespace ThreadsApp.UseCases;
 using ThreadsApp.CoreBusiness;
 
-public class ViewThreadsUseCase : BaseUseCase<AThread>
+// NOTE: I can not use BaseUseCase<AThread> here because The Front-End does not have a reference to the CoreBusiness layer (AThread)
+// So we can create a specific Interface to each UseCase
+public class ViewThreadsUseCase : IViewThreadsUseCase
 {
     private readonly IThreadRepository threadRepository;
 

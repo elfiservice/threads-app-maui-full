@@ -2,7 +2,7 @@
 
 namespace ThreadsApp.UseCases;
 
-public class ViewUsersUseCase : BaseUseCase<AUser>
+public class ViewUsersUseCase : IViewUsersUseCase
 {
     private readonly IUserRepository usersRepository;
 
