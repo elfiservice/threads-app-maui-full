@@ -9,13 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsApp.CoreBusiness", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsApp.UseCases", "ThreadsApp.UseCases\ThreadsApp.UseCases.csproj", "{7A80AD26-BF34-498E-B0AD-6CA625E305FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D253E2BA-1D98-4834-8042-400414923828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F76DFF0A-2E7C-4782-A474-FED05A779164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,8 @@ Global
 		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A80AD26-BF34-498E-B0AD-6CA625E305FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
