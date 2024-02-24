@@ -1,7 +1,7 @@
 ﻿namespace ThreadsApp.UseCases;
 using ThreadsApp.CoreBusiness;
 
-public class ViewThreadsUseCase
+public class ViewThreadsUseCase : BaseUseCase<AThread>
 {
     private readonly IThreadRepository threadRepository;
 
